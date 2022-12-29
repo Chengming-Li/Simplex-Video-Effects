@@ -22,7 +22,6 @@ class Framework:
         window.maxsize(screenSize[0], screenSize[1])
         window.title("Video Effects")
         window.state('zoomed')
-
         # frames
         menuFrame = tk.Frame(window, bg="#464646", )
         menuFrame.grid(row=0, column=0, rowspan=8, sticky="NS")
